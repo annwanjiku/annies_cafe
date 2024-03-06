@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search bar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    <div id="container">
+
+        <div id="my-input">
+          <h1>ANNIE'S SHOP AND GO!</h1>
+        </div>
+
+        <div id="getInput">
+          <input id="input" type="text" placeholder='Search an Item &#xf010;' >
+        </div>
+        <div id="items">
+        <ul id="unordered-list">
+         
+        <p>-Sodas</p>
+        <li>Coke  <input type="checkbox" value="60.00">60.00</li>
+        <li>Fanta Orange  <input type="checkbox" value="50.00">50.00</li>
+        <li>Fanta Passion  <input type="checkbox" value="40">40.00</li> 
+        <li>Sprite  <input type="checkbox" value="50">50.00</li>
+        <li>Krest  <input type="checkbox" value="50">50.00</li>
+          
+        <p>-Crisps</p>
+        <li>Kripsii  <input type="checkbox" value="55.00">55.00</li>
+        <li>Potato-crisps  <input type="checkbox" value="70.00">70.00</li>
+        <li>Krackles  <input type="checkbox" value="60.00">60.00</li>
+        <li>Depy's  <input type="checkbox" value="40.00">40.00</li>
+          
+        <p>-Candy</p>
+        <li>Skittles  <input type="checkbox" value="200.00">200.00</li>
+        <li>Chocolate  <input type="checkbox" value="140.00">140.00</li>
+        <li>M&M'S  <input type="checkbox" value="300.00">300.00</li>
+        <li>kiTkaT  <input type="checkbox" value="150.00">150.00</li>      
+          
+        <p>-Bakery</p>
+        <li>Cookies  <input type="checkbox" value="100.00">100.00</li>
+        <li>Biscuits  <input type="checkbox" value="40.00">40.00</li>
+        <li>Cake  <input type="checkbox" value="30.00">30.00</li>
+        <li>Bread  <input type="checkbox" value="65.00">65.00</li> 
+          
+          <p>-Fast Foods</p>
+          <li>Samosa  <input type="checkbox" value="39.00">39.00</li>
+          <li>Kebab  <input type="checkbox" value="72.00">72.00</li>
+          <li>Fries  <input type="checkbox" value="99.00">99.00</li>
+          <li>Nyama-Bite  <input type="checkbox" value="97.00">97.00</li>
+     
+        </ul>
+        </div>
+      
+      <div class="button">
+      <button id="button1">Place order </button>
+      <button id="button2">New order </button>
+      </div>
+      
+      <div id="Receipt">
+        <p id="receipt-p"></p>
+        <ul id="Receipt-ul"</ul>
+      </div>
+      <br>
+       <div id="Total"></div>
+       <br>
+       <div id="Tax"></div>
+       <br>
+       <div id="thankyou-message"></div>
+      
+  
+      
+      
+    </div>
+
+  </body>
+</html>
